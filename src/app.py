@@ -14,7 +14,7 @@ app.title = 'DNA Sequence Analyser'
 app.layout = dbc.Container([
     dbc.Row([
         dbc.Col([
-            html.H1("DNA Sequence Analyser")
+            html.H1("DNA Sequence Analyser App")
         ], width=8)
     ]),
     dbc.Row([
