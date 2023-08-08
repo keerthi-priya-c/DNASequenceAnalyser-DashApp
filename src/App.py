@@ -8,7 +8,7 @@ import dash_bootstrap_components as dbc
 import plotly.graph_objs as go
 
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.SPACELAB])
-
+server = app.server
 app.title = 'DNA Sequence Analyser'
 
 app.layout = dbc.Container([
